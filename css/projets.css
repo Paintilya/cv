@@ -1,0 +1,75 @@
+/* PROJETS */
+
+@media (min-width: 700px) {
+    .grid {
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "project1 project2";
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .bloometti {
+        padding-right: 1em;
+        border-right: 1px solid #1c1d20;
+    }
+}
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/* TITRE */
+
+.project-title {
+    display: inline-block;
+    margin-right: 0.3em;
+}
+
+/* LIENS DANS LE TITRE (ICÔNES) */
+
+.project-links {
+    display: inline;
+}
+
+.project-links img {
+    height: 2em;
+    width: 2em;
+    margin: -0.2em;
+}
+
+/* DESCRIPTION */
+
+.project-description p {
+    margin: 0;
+}
+
+/* IMAGES */
+
+.project-medias img {
+    border-radius: 1em;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .project-medias img {
+        width: 30em;
+    }
+}
+
+/* SÉPARATEUR */
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #1c1d20;
+}

@@ -1,0 +1,24 @@
+Compétences:
+3 boutons : Avancé / Intermédiaire / Débutant avec ton code de couleur
+quand on clic sur un bouton, il cache proprement les items correspondants (attention aux virgules!).
+Légende: préfixer la légende par les mots Avancés/Intermédiaires/etc
+Rendre les éléments dynamiques (ils sont dans des objets javascript et se font ajouter dynamiquement)
+
+Faire une version bilingue de ton CV avec lien pour switcher FR <=> EN
+
+/Expériences
+Retirer le "Cependant"
+"Aucune expérience professionelle" : retirer et mettre un petit texte d'introduction
+Remplacer "Expériences" par "Portfolio" ou "Réalisations"
+
+Pages projets:
+- mettre les 2 projets ds 2 colonnes (mode responsive : si pas assez large, alors l'un au dessous de l'Autre)
+
+Projets Bloometti :
+- faire un guide utilisateur/documentation FR/EN ?
+- faire une FAQ ? (très good idée)
+
+Projet "Clients Database":
+Ce projet a été créé pour mon cours de "Sites web et multimédia" (cégep).
+C'est un site qui permet de rechercher et lister des clients fictifs, ainsi que d'afficher leurs informations de contact.
+Ces informations sont stockées dans un objet javascript.

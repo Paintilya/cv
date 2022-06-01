@@ -1,0 +1,128 @@
+/* POLICE */
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+/* GÉNÉRAL */
+
+body {
+    margin: 1em;
+    color: #FFFFFF;
+    background-color: #28292c;
+    font-family: 'Roboto Mono';
+    font-weight: 300;
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.important-text {
+    color: #ffade4;
+}
+
+#invitation-web {
+    display: none;
+}
+
+/* TOUS LES LIENS */
+
+a {
+    color: #5ed9ff;
+    text-decoration: underline;
+    transition: all 250ms;
+}
+
+a:hover {
+    color: #4cb2d1;
+    border-color: #CFCFCF;
+}
+
+/* MENU DE NAVIGATION */
+
+nav {
+    text-align: right;
+    padding: 0.5em;
+    background-color: #202124;
+    box-shadow: 0 0 5px #12151b;
+    border-radius: 0.5em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #b1b1b1;
+    text-decoration: none;
+    padding: 1em 1em;
+    transition: all 250ms;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    border-color: #CFCFCF;
+}
+
+.active {
+    color: #ffffff;
+}
+
+/* BAS DE PAGE */
+
+footer {
+    margin-top: 2em;
+    padding: 2em 0em 2em 0em;
+    text-align: center;
+    background-color: #202124;
+    box-shadow: 0 0 5px #12151b;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+/* LAYOUT */
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      "content";
+}
+
+@media (min-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "content";
+    }
+
+    #full-name {
+        font-size: 4em;
+    }
+
+    body {
+        font-size: 1em;
+    }
+
+    .categories {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}

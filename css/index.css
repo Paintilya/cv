@@ -1,0 +1,232 @@
+/* CONTENU */
+
+#full-name {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    margin-right: 0.3em;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.socials img {
+    width: 4em;
+    margin: 1em;
+    margin-top: 0;
+}
+
+content {
+    grid-area: content;
+    padding: 0em 2em;
+    text-align: justify;
+}
+
+content div {
+    margin-top: 3em;
+}
+
+content ul li {
+    padding: 0.5em;
+}
+
+content p {
+    margin-left: 2em;
+}
+
+.languages {
+    text-align: left;
+}
+
+.contact {
+    text-align: left;
+}
+
+@media (min-width: 700px) {
+    .languages {
+        text-align: right;
+    }
+
+    .contact {
+        text-align: right;
+    }
+
+    #full-name {
+        float: left;
+    }
+}
+
+/* LÉGENDE */
+/*
+#legend-advanced-toggle {
+    background-color: transparent;
+    color: #6b60ff;
+    border: 2px solid #6b60ff;
+    border-radius: 0.3em;
+    font-size: 0.7em;
+    margin-left: 2%;
+    padding: 0.3em 1em;
+    transition: all 250ms;
+}
+
+#legend-advanced-toggle:hover {
+    color: #5249c7;
+    border: 2px solid #5249c7;
+}
+
+#legend-medium-toggle {
+    background-color: transparent;
+    color: #6cfaff;
+    border: 2px solid #6cfaff;
+    border-radius: 0.3em;
+    font-size: 0.7em;
+    margin-left: 2%;
+    padding: 0.3em 1em;
+    transition: all 250ms;
+}
+
+#legend-medium-toggle:hover {
+    color: #4bb1b4;
+    border: 2px solid #4bb1b4;
+}
+
+#legend-beginner-toggle {
+
+}
+
+#legend-beginner-toggle:hover {
+    color: #c773bc;
+    border: 2px solid #c773bc;
+}
+*/
+
+#legend-toggle {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 0.3em;
+    font-size: 0.7em;
+    margin-left: 2%;
+    padding: 0.3em 1em;
+    transition: all 250ms;
+}
+
+#legend-toggle:hover {
+    color: #c7c7c7;
+    border: 2px solid #c7c7c7;
+}
+
+.skill-levels {
+    /* border: 1px solid #ffffff; */
+    border-radius: 1em;
+    font-size: 0.87em;
+    padding: 1.5em 3em;
+}
+
+/* NIVEAUX */
+
+.beginner {
+    color: #ff95f1;
+}
+
+.medium {
+    color: #6cfaff;
+}
+
+.advanced {
+    color: #6b60ff;
+}
+
+.separator {
+    color: #ffffff;
+}
+
+.skills ul li span:last-child .separator {
+    display: none;
+}
+
+
+/* IMPRESSION */
+
+@media print {
+    nav {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    body {
+        font-size: 12px;
+        color: #000000;
+        font-family: 'Arial';
+    }
+
+    .beginner {
+        color: #000000;
+    }
+    
+    .medium {
+        color: #000000;
+    }
+    
+    .advanced {
+        color: #000000;
+    }
+
+    content div {
+        margin-top: 0em;
+    }
+
+    content ul li {
+        padding: 0;
+        margin: 0;
+        margin-left: 2em;
+    }
+
+    content p {
+        margin-left: 2em;
+    }
+
+    content ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        display: none;
+    }
+
+    h1,h2 {
+        padding: 0;
+        
+        color: #000000;
+    }
+
+    .skill-levels {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    #legend-toggle {
+        display: none;
+    }
+
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    body {
+        padding-top: 72px;
+        padding-bottom: 72px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 13.7px;
+    }
+
+    #invitation-web {
+        display: inline;
+        text-align: center;
+    }
+}
